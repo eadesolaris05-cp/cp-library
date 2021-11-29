@@ -4,6 +4,7 @@ Template code currently includes:
 
 Data Structures:
 - Disjoint Set Union
+- Sparse Table
 
 Math:
 - Modular Int Class
