@@ -6,6 +6,9 @@
  * - tourist, dsu.cpp  
  * - cp algorithms, disjoint set union
  *
+ * Example Usage:
+ * - https://atcoder.jp/contests/abc229/submissions/27622178
+ *
 */
 
 class dsu {

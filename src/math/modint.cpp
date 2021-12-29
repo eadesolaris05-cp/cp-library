@@ -108,7 +108,7 @@ struct comb {
 
 	comb (int N) {
 		fact = {1};
-		for(int i = 1; i < N; i++) fact.push_back(i * fact[i-1]);
+		for(int i = 1; i <= N; i++) fact.push_back(i * fact[i-1]);
 		ifact.resize(N+1);
 		ifact.back() = 1 / fact.back();
 		for(int i = N; i > 0; i--) ifact[i-1] = i * ifact[i];
