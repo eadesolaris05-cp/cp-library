@@ -5,7 +5,7 @@ class wgraph {
         vector<vector<pair<int, T>> edges;
 
         wgraph (int _n) : N(_n) {
-            edges = vector<vector<pair<int, T>> edges;
+            edges = vector<vector<pair<int, T>>>(N);
         }
 
         void read(int num_edges, bool undirected) {
@@ -15,6 +15,9 @@ class wgraph {
                 cin >> u >> v >> cost;
                 --u; --v;
                 edges[u].emplace_back(v, cost);
+                if (undirected) {
+                    edges[v].emplace_back(u, cost);
+                }
             }
         }
 };

@@ -46,4 +46,9 @@ class dsu {
             components--;
             return true;
         }
+
+        int find_size(int x) {
+            x = find(x);
+            return size[x];
+        }
 };
