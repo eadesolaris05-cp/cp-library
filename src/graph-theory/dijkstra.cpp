@@ -8,9 +8,8 @@
  * - https://judge.yosupo.jp/submission/73949
  *
  * Example Usage:
- * - 
+ * - https://atcoder.jp/contests/abc191/submissions/28485164 
 */   
-
 
 template<typename T>
 class Dijkstra {

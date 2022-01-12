@@ -1,3 +1,10 @@
+/*
+ * Description: Basic class for simple graph problems
+ *
+ * Example Usage:
+ * - https://atcoder.jp/contests/abc191/submissions/28485164 
+*/
+
 template<typename T>
 class wgraph {
     public:
@@ -32,3 +39,5 @@ class wgraph {
             }
         }
 };
+
+using graph = wgraph<long long>;
