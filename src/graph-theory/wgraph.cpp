@@ -10,7 +10,7 @@ class wgraph {
     public:
         struct edge {
             int to = -1;
-            T weight = 0;
+            T weight = 1;
 
             edge(int _to, T _weight) : to(_to), weight(_weight) {}
         };
